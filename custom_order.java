@@ -80,6 +80,11 @@ public class custom_order {
     // TEST CODE
       
     // STEP 10 DISPLAY COST AND SALES TAX
+	    int cost = 0;
+System.out.printf("The cost of your order is: $%.2f\n", cost);
+int tax = cost * TAX_RATE;
+System.out.printf("The tax is: $%.2f\n", tax);
+System.out.printf("The total due is: $%.2f\n",(tax + cost));
   
     }   
 }
